@@ -6,7 +6,7 @@
 - Crear los directorios de trabajo:
 
 ```bash5
-mkdir Workshopss
+mkdir Workshop01
 mkdir Workshop02
 ```
 
@@ -44,7 +44,6 @@ git config --global core.editor vim
 ```bash
 git config --global core.editor "\"C:\Program Files\Notepad++\notepad++.exe\" -multiInst -notabbar -nosession"
 ```
-<img src="imag1.png">
 
 
 ## Consultar configuración
@@ -60,6 +59,8 @@ git config --global --list
 ```bash
 git config --list
 ```
+
+<img src="01-git-config.png">
 
 ## Comandos básicos de Git
 
@@ -111,7 +112,7 @@ Para verificar que la clonación fue exitosa se utilizó el siguiente comando:
 ```
 Como resultado se observó la carpeta lospatitos.com.
 
-<img src="imag2.png">
+
 
 ## Configuración del archivo Hosts en windows
 
@@ -120,7 +121,7 @@ Se agregó la siguiente entrada al archivo `hosts`:
 ```text
 192.168.56.10 lospatitos.com
 ```
-<img src="imag3.png">
+
 
 ## Verificación de funcionamiento
 
@@ -145,6 +146,10 @@ El servicio debe mostrarse como:
 
 active (running)
 ```
+<img src="02-vagrant-up.png">
+<img src="03-lamp-install.png">
+<img src="04-apache-configtest.png">
+
 ## Acceso al sitio web
 
 Como prueba final, se accedió al sitio desde el navegador:
@@ -155,7 +160,7 @@ http://lospatitos.com
 
 - El sitio cargó correctamente, confirmando que la configuración de Apache, PHP, el Virtual Host y la resolución de nombres funcionaban adecuadamente.
 
-<img src="imag4.png">
+<img src="05-lospatitos-browser.png">
 
 
 
