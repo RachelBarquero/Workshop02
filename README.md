@@ -60,7 +60,10 @@ git config --global --list
 git config --list
 ```
 
-<img src="01-git-config.png">
+<figure>
+  <img src="01-git-config.png" alt="Captura de pantalla de la configuración global de Git">
+  <figcaption>Captura de pantalla de los comandos de configuración global de Git usados en la práctica.</figcaption>
+</figure>
 
 ## Comandos básicos de Git
 
@@ -146,9 +149,21 @@ El servicio debe mostrarse como:
 
 active (running)
 ```
-<img src="02-vagrant-up.png">
-<img src="03-lamp-install.png">
-<img src="04-apache-configtest.png">
+
+<figure>
+  <img src="02-vagrant-up.png" alt="Vagrant levantado y funcionando">
+  <figcaption>Estado de la máquina virtual Vagrant después de ejecutar <code>vagrant up</code>.</figcaption>
+</figure>
+
+<figure>
+  <img src="03-lamp-install.png" alt="Instalación del stack LAMP">
+  <figcaption>Confirmación visual de la instalación del stack LAMP.</figcaption>
+</figure>
+
+<figure>
+  <img src="04-apache-configtest.png" alt="Apache configtest con Syntax OK">
+  <figcaption>Resultado de <code>apache2ctl configtest</code> mostrando <strong>Syntax OK</strong>.</figcaption>
+</figure>
 
 ## Acceso al sitio web
 
@@ -160,11 +175,30 @@ http://lospatitos.com
 
 - El sitio cargó correctamente, confirmando que la configuración de Apache, PHP, el Virtual Host y la resolución de nombres funcionaban adecuadamente.
 
-<img src="05-lospatitos-browser.png">
+<figure>
+  <img src="05-lospatitos-browser.png" alt="Sitio lospatitos.com cargado en el navegador">
+  <figcaption>Captura del sitio <code>lospatitos.com</code> cargado correctamente en el navegador.</figcaption>
+</figure>
+
+<figure>
+  <img src="06-segundo-sitio-browser.png" alt="Segundo sitio web cargado en el navegador">
+  <figcaption>Captura del segundo sitio web accesible en el navegador tras la configuración del segundo Virtual Host.</figcaption>
+</figure>
 
 
 
 
+
+## Imágenes incluidas en el repositorio
+
+Las imágenes añadidas en la raíz del repositorio documentan los pasos clave del taller:
+
+- <code>01-git-config.png</code>: configuración global de Git.
+- <code>02-vagrant-up.png</code>: Vagrant levantado y listo.
+- <code>03-lamp-install.png</code>: instalación del stack LAMP completada.
+- <code>04-apache-configtest.png</code>: prueba de configuración de Apache con <code>Syntax OK</code>.
+- <code>05-lospatitos-browser.png</code>: sitio <code>lospatitos.com</code> cargado en el navegador.
+- <code>06-segundo-sitio-browser.png</code>: segundo sitio web cargado en el navegador.
 
 #### NOTA
 ## Compresión de archivos
